@@ -2,7 +2,7 @@ from gpiozero import PWMLED
 from time import sleep
 
 # Erstellen Sie ein PWMLED-Objekt, das an Pin 17 angeschlossen ist
-led = PWMLED(32)
+led = PWMLED(12)
 
 try:
     while True:
